@@ -12,7 +12,7 @@ if(true){
 //this gives the block c value ratherthan global c value 
 //due to var thats way we can't use it
 
-console.log(c);
+// console.log(c);
 
 
 
@@ -23,7 +23,7 @@ function one(){
     const name='ahmer';
     function two(){
         const website='youtube'
-        console.log(name+website);
+        // console.log(name+website);
     }
     // two()
 
@@ -32,3 +32,38 @@ function one(){
 
 }
 // one()
+
+
+
+//++++++++++++++++++++++Intersting++++++++++++++
+
+
+
+
+// function add(num){
+//     return num+1
+// }
+// console.log(add(5));
+
+//these three function will not gives an error
+
+// console.log(add(5));
+// function add(num){
+//     return num+1
+// }
+
+//this result variable also called an Expression
+//also called hoisting
+
+// const result=function add(num){
+//     return num+1
+// }
+// console.log(result(5));
+
+
+//Error:  Cannot access 'result' before initialization
+
+// console.log(result(5));
+// const result=function add(num){
+//         return num+1
+//     }
