@@ -76,6 +76,6 @@ map.set('price',434)
 map.set('email','ahmeraltaf3@gmail.com')
 map.set('password','password123')
 
-for (const key in map) {
-    // console.log(`${key} a`);
-}
+// for (const key of map) {
+//     console.log(`${key} a`);
+// }
